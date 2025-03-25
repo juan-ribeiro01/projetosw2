@@ -18,7 +18,7 @@
 
                 <h3 class="text-center p-3">Preencha os dados abaixo</h3>
 
-                <from action="adminstrador_cadastro.php">
+                <form action="administrador_cadastro.php">
 
                     <p>
                         Digite o nome do administrador<br>
@@ -33,8 +33,8 @@
                         <input type="password" name="senha" class="form-control" >
                     </p>
                     <p>
-                        <input type="submit" value="Cadastrar">
-                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Cadastrar" class="btn btn-primary">
+                        <input type="reset" value="Limpar" class="btn btn-primary">
                         <a href="index.php" class="btn btn-primary">Voltar</a>
                     </p>
                 </from>
