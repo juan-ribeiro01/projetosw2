@@ -18,15 +18,15 @@
 
                 <h3 class="text-center p-3">Preencha os dados abaixo</h3>
 
-                <from action="#">
+                <form action="fornecedor_cadastro.php">
 
                     <p>
                         Fornecedor<br>
                         <input type="text" name="fornecedor" class="form-control" >
                     </p>
                     <p>
-                        <input type="submit" value="Cadastrar">
-                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Cadastrar" class="btn btn-success">
+                        <input type="reset" value="Limpar" class="btn btn-success">
                         <a href="index.php" class="btn btn-success">Voltar</a>
                     </p>
                 </from>

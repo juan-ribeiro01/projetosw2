@@ -76,6 +76,15 @@
                     realizadas pelos clientes.
                 </p>
             </div>
+            <div class="col-sm-4"> 
+                <h1 class="bg-danger">Forma de Pagamento</h1>
+                <p class="text-danger">
+                    Utilize esta opção para escolher sua forma de pagamento.
+                </p>
+                <p>
+                    <a href="formaspagamento.php" class="btn btn-danger">Clique</a>
+                </p>
+            </div>
         </div>
 
     </div>
