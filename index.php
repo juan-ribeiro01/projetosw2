@@ -42,6 +42,7 @@
                 </p>
                 <p>
                     <a href="categoria.php" class="btn btn-danger">Clique</a>
+                    <a href="categoria_pesquisa.php" class="btn btn-primary">Pesquisa</a>
                 </p>
             </div>
 
@@ -53,6 +54,7 @@
                 </p>
                 <p>
                     <a href="fornecedor.php" class="btn btn-success">Clique</a>
+                    <a href="fornedecor_pesquisa.php" class="btn btn-primary">Pesquisa</a>
                 </p>
             </div>
         </div>
@@ -67,6 +69,7 @@
                 </p>
                 <p>
                     <a href="produto.php" class="btn btn-warning">Clique</a>
+                    <a href="produtps_pesquisa.php" class="btn btn-primary">Pesquisa</a>
                 </p>
             </div>
 
@@ -84,6 +87,7 @@
                 </p>
                 <p>
                     <a href="formaspagamento.php" class="btn btn-danger">Clique</a>
+                    <a href="formapagamento_pesquisa.php" class="btn btn-primary">Pesquisa</a>
                 </p>
             </div>
         </div>
