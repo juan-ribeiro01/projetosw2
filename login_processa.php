@@ -2,7 +2,7 @@
     
     include "conexao.php";
 
-    $sql = "selec * from administrador
+    $sql = "select * from administrador
             where login = :login and senha = :senha";
     $login = $_REQUEST["login"];
     $senha = $_REQUEST["senha"];
@@ -14,14 +14,17 @@
 
     if ($linha = $result->fetch(PDO::FETCH_ASSOC))
     {
-        echo "Login realizado com sucesso !";   
+       session_start();
+       $_SESSION["nome"] = $linha["nome"];
+
+
+        header("location: index.php")
     }
     else
     {
        session_start();
-       $_SESSION["erro"] = "Login e Senha incorretos"
+       $_SESSION["erro"] = "Login e Senha incorretos";
 
-       header("location")
+       header("location: login.php");
     }
-
 ?>
