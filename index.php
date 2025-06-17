@@ -22,15 +22,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <style>
+        body {
+            background-color: #0D1B2A; 
+        }
+    </style>
 </head>
 <body>
     <?php include "menu.php"?>
     
-    <div class="container-fluid bg-primary text-white text-center p-5">
+    <div class="container-fluid bg-dark text-white text-center p-5">
         <h1>Projeto SW2</h1>
         <p>
-            Elaborado por Guilherme Henrique de Souza
+            Elaborado por Juan Ribeiro
         </p>
     </div>
 
@@ -57,7 +61,7 @@
                 </p>
                 <p>
                     <a href="categoria.php" class="btn btn-danger">Clique</a>
-                    <a href="categoria_pesquisa.php" class="btn btn-primary">Pesquisa</a>
+                    <a href="categoria_pesquisa.php" class="btn btn-danger">Pesquisa</a>
                 </p>
             </div>
 
@@ -69,7 +73,7 @@
                 </p>
                 <p>
                     <a href="fornecedor.php" class="btn btn-success">Clique</a>
-                    <a href="fornedecor_pesquisa.php" class="btn btn-primary">Pesquisa</a>
+                    <a href="fornedecor_pesquisa.php" class="btn btn-success">Pesquisa</a>
                 </p>
             </div>
         </div>
@@ -84,7 +88,7 @@
                 </p>
                 <p>
                     <a href="produto.php" class="btn btn-warning">Clique</a>
-                    <a href="produtps_pesquisa.php" class="btn btn-primary">Pesquisa</a>
+                    <a href="produtps_pesquisa.php" class="btn btn-warning">Pesquisa</a>
                 </p>
             </div>
 
@@ -102,7 +106,7 @@
                 </p>
                 <p>
                     <a href="formaspagamento.php" class="btn btn-danger">Clique</a>
-                    <a href="formapagamento_pesquisa.php" class="btn btn-primary">Pesquisa</a>
+                    <a href="formapagamento_pesquisa.php" class="btn btn-danger">Pesquisa</a>
                 </p>
             </div>
         </div>
